@@ -253,3 +253,6 @@ https://raw.githubusercontent.com/chroma-core/chroma/main/LICENSE
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
+
+Ragas logo from the Ragas project. Apache License 2.0 (text above).
+https://github.com/vibrantlabsai/ragas/blob/main/LICENSE

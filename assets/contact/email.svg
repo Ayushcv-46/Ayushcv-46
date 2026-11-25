@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="250" height="28" viewBox="0 0 250 28" role="img">
+  <title>Email ayushcv.tech@gmail.com</title>
+  <path fill="#183548" d="M0 0h250v28H0z"/>
+  <rect x="58" width="192" height="28" fill="#ffc66d"/>
+  <g text-anchor="middle" font-family="Verdana,Arial,sans-serif" font-weight="bold">
+    <text x="29.0" y="18" fill="#fff4db" font-size="10" letter-spacing="1">EMAIL</text>
+    <text x="154" y="18.5" fill="#172b38" font-size="12">ayushcv.tech@gmail.com</text>
+  </g>
+</svg>

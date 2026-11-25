@@ -1,20 +1,30 @@
-<img src="assets/research-desk.webp" width="100%" alt="Ayush CV’s research notes. An illustrated portrait of me tracing a passage in a 10-K filing at my desk.">
+<img src="assets/coding-desk.webp" width="100%" alt="Ayush CV coding in VS Code with black coffee and philosophy books on the desk. A Real Madrid Mbappé 10 shirt hangs on the wall.">
 
-# <img src="assets/hello.svg" width="236" alt="Hi, I’m Ayush.">
+<h1 align="center">Hi, I’m Ayush.</h1>
 
-When a model gives me an answer about a company, I want to see the line in its annual report that backs it up. That question got me building retrieval systems, testing LLM judges, and wiring agents together with Python and FastAPI.
+<p align="center">
+  <img src="assets/hello.svg" width="412" alt="I build agents and test their limits.">
+</p>
+
+<p align="center">
+  <a href="mailto:ayushcv.tech@gmail.com"><img src="assets/contact/email.svg" alt="Email ayushcv.tech@gmail.com"></a>
+  <a href="https://www.linkedin.com/in/ayush-cv-6a68a233b/"><img src="assets/contact/linkedin.svg" alt="Connect on LinkedIn"></a>
+  <img src="https://komarev.com/ghpvc/?username=Ayushcv-46&amp;label=Profile%20views&amp;style=for-the-badge&amp;color=17685f" alt="Profile views counted by Komarev">
+</p>
+
+## About me
+
+I write Python systems that search documents, coordinate agents, and route requests between models. My favorite part is figuring out where they go wrong. Sometimes I trace a bad answer back to a missing passage. Other times I take a provider offline to see how the gateway handles the next request.
 
 I study **Computer Science & Information Technology at REVA University** (B.Tech, 2027). I’m looking for **AI and GenAI internships** and I’m also interested in **backend software engineering**. I practice data structures and algorithms in C++.
-
-[LinkedIn](https://www.linkedin.com/in/ayush-cv-6a68a233b/) · [Selected work](#selected-work) · [Tech arsenal](#tech-arsenal) · [GitHub activity](#github-activity)
 
 ## Selected work
 
 ### [Fin Research Agent](https://github.com/Ayushcv-46/fin-research-agent)
 
-I built a research assistant that retrieves passages from SEC 10-K filings and links its answers to the evidence. Then I tested a question I couldn’t settle by reading the answers alone.
+I built an assistant that cites passages from SEC filings. Adding a retrieval pass sounded promising, so I tested it against a fixed baseline.
 
-> **Does another retrieval pass help?** Across 12 tickers, average answer relevancy was **0.743** with fixed retrieval and **0.728** with adaptive retrieval. The extra passes showed no measurable improvement in my experiment. Faithfulness was scoreable for only three tickers in each mode. [Inspect the recorded runs →](https://github.com/Ayushcv-46/fin-research-agent/blob/main/results/retrieval_comparison.json)
+Across 12 tickers, adaptive retrieval showed no measurable improvement in my experiment. [Inspect the recorded runs →](https://github.com/Ayushcv-46/fin-research-agent/blob/main/results/retrieval_comparison.json)
 
 ### [ModelMux](https://github.com/Ayushcv-46/ModelMux)
 
@@ -32,26 +42,26 @@ Five agents turn a topic into a cited report. The part I like most is the handof
 
 - [Intrusion Detection System](https://github.com/Ayushcv-46/intrusion-detection-system-ml) — I combined classifiers with soft voting and used SHAP to inspect their network-traffic predictions.
 - [InterviewPal](https://github.com/Ayushcv-46/InterviewPal) — Mock interviews, technical trivia, and flashcards for interview practice.
-- [Personal Expense Tracker](https://github.com/Ayushcv-46/Personal-Expense-tracker-) — A React and Node.js app for tracking transactions, category budgets, and monthly spending.
+- [Personal Expense Tracker](https://github.com/Ayushcv-46/Personal-Expense-tracker-) — An app for tracking transactions, category budgets, and monthly spending.
 
 ## Tech arsenal
 
-**AI & retrieval**<br>
+**Agents & retrieval-augmented generation (RAG)**<br>
 <img src="assets/tech/langgraph.svg" alt="LangGraph"> <img src="assets/tech/llamaindex.svg" alt="LlamaIndex"> <img src="assets/tech/chroma.svg" alt="Chroma"> <img src="assets/tech/hugging-face.svg" alt="Hugging Face">
 
 **Backend & databases**<br>
 <img src="assets/tech/fastapi.svg" alt="FastAPI"> <img src="assets/tech/postgresql.svg" alt="PostgreSQL"> <img src="assets/tech/redis.svg" alt="Redis"> <img src="assets/tech/sqlite.svg" alt="SQLite">
 
-**Languages & frontend**<br>
-<img src="assets/tech/python.svg" alt="Python"> <img src="assets/tech/cpp.svg" alt="C++"> <img src="assets/tech/javascript.svg" alt="JavaScript"> <img src="assets/tech/react.svg" alt="React">
+**Languages**<br>
+<img src="assets/tech/python.svg" alt="Python"> <img src="assets/tech/cpp.svg" alt="C++"> <img src="assets/tech/javascript.svg" alt="JavaScript">
 
-**Testing & delivery**<br>
-<img src="assets/tech/pytest.svg" alt="pytest"> <img src="assets/tech/docker.svg" alt="Docker"> <img src="assets/tech/git.svg" alt="Git">
+**Evaluation, testing & CI**<br>
+<img src="assets/tech/ragas.svg" alt="Ragas"> <img src="assets/tech/pytest.svg" alt="pytest"> <img src="assets/tech/github-actions.svg" alt="GitHub Actions"> <img src="assets/tech/git.svg" alt="Git">
 
 <details>
 <summary><strong>Inside ModelMux · stack and 60-day roadmap</strong></summary>
 
-- **In the gateway today** — Python, async FastAPI, Uvicorn, Pydantic, HTTPX, YAML routing, and provider adapters for Mock, Ollama, Gemini, and Groq. I use SQLAlchemy with SQLite for request and attempt records, Docker Compose for Redis, and pytest for provider contracts and outage scenarios.
+- **In the gateway today** — Python, async FastAPI, Uvicorn, Pydantic, HTTPX, YAML routing, and provider adapters for Mock, Ollama, Gemini, and Groq. I use SQLAlchemy with SQLite for request and attempt records, and pytest for provider contracts and outage scenarios.
 - **On the roadmap** — Redis token buckets with Lua, tenant-scoped response caching with expiry, PostgreSQL, a Chart.js metrics dashboard, Locust load tests, and a GitHub Actions pipeline with Ruff, pytest, and container checks.
 - **After the core build** — The roadmap leaves room for OpenTelemetry traces, server-sent event streams, shared circuit-breaker state, performance-aware routing, and experiments with semantic caching.
 
@@ -66,10 +76,10 @@ Five agents turn a topic into a cited report. The part I like most is the handof
 
 Both cards refresh daily from GitHub. Streaks count consecutive contribution dates since I joined. Today can still extend a streak that ran through yesterday. [View my contribution calendar →](https://github.com/Ayushcv-46#contribution-activity)
 
-## Let’s talk
+## Away from the keyboard
 
-Away from code, I read philosophy, especially Advaita Vedanta. One question follows me back to my desk.
+I drink black coffee every day and watch Real Madrid whenever I can. I also read philosophy, especially Albert Camus, Friedrich Nietzsche, and Swami Vivekananda.
 
-> What would change my mind about this answer?
+> The fastest way for me to understand something is to build it.
 
-If your team is working on retrieval, LLM evaluation, or Python backends, I’d love to hear what you’re testing. [Message me on LinkedIn →](https://www.linkedin.com/in/ayush-cv-6a68a233b/)
+If you’re building agents, evaluating language models, or hiring a backend intern, I’d love to hear from you. [Email me](mailto:ayushcv.tech@gmail.com) · [LinkedIn](https://www.linkedin.com/in/ayush-cv-6a68a233b/)

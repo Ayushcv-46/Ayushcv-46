@@ -1,13 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="236" height="44" viewBox="0 0 236 44" role="img">
-  <title>Hi, I’m Ayush.</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="412" height="40" viewBox="0 0 412 40" role="img">
+  <title>I build agents and test their limits.</title>
   <style>
     @media (prefers-reduced-motion: no-preference) {
-      .reveal { animation: type 1.35s steps(14,end) both; }
-      @keyframes type { from { width: 0; } to { width: 190px; } }
+      .reveal { animation: words 3.9s steps(1,end) both; }
+      @keyframes words {
+        0% { width: 0; }
+        13% { width: 10px; }
+        27% { width: 70px; }
+        43% { width: 140px; }
+        56% { width: 180px; }
+        70% { width: 230px; }
+        85% { width: 290px; }
+        100% { width: 370px; }
+      }
     }
   </style>
-  <defs><clipPath id="type"><rect class="reveal" x="37" width="190" height="44"/></clipPath></defs>
-  <path fill="#102c3c" d="M0 0h236v44H0z"/>
-  <path d="m12 16 7 6-7 6" stroke="#ffc363" stroke-width="3" fill="none"/>
-  <text x="37" y="29" clip-path="url(#type)" font-family="Consolas,Menlo,monospace" font-size="22" fill="#fff4db">Hi, I’m Ayush.</text>
+  <defs><clipPath id="words"><rect class="reveal" x="27" width="371" height="40"/></clipPath></defs>
+  <rect width="412" height="40" fill="#102c3c"/>
+  <path d="m10 15 5 5-5 5" stroke="#ffc363" stroke-width="2.5" fill="none"/>
+  <text x="27" y="26" clip-path="url(#words)" font-size="18" font-family="Consolas,Menlo,monospace" fill="#fff4db" textLength="370" lengthAdjust="spacingAndGlyphs">I build agents and test their limits.</text>
 </svg>
