@@ -1,4 +1,4 @@
-<img src="assets/coding-desk.webp" width="100%" alt="Ayush CV coding in VS Code with black coffee and philosophy books on the desk. A Real Madrid Mbappé 10 shirt hangs on the wall.">
+<img src="assets/coding-desk.webp" width="100%" alt="Ayush CV coding in VS Code with black coffee and philosophy books on the desk. A white Real Madrid Benzema number 9 shirt hangs on the wall.">
 
 <h1 align="center">Hi, I’m Ayush.</h1>
 
