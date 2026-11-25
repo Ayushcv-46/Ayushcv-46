@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="226" viewBox="0 0 960 226" role="img" aria-labelledby="title description">
+  <title id="title">Ayush CV</title>
+  <desc id="description">AI and GenAI Engineering, Python Backend Development. A branching workflow motif on a pale slate-blue background.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#f5f8fc"/>
+      <stop offset="1" stop-color="#e1ebf6"/>
+    </linearGradient>
+    <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1" fill="#9ab0c8" opacity=".34"/>
+    </pattern>
+    <clipPath id="frame"><rect width="960" height="226" rx="15"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="960" height="226" fill="url(#background)"/>
+    <rect x="655" width="305" height="226" fill="url(#dots)"/>
+    <rect x="43" y="56" width="36" height="4" rx="2" fill="#547ca7"/>
+    <g font-family="Segoe UI, Arial, sans-serif">
+      <text x="43" y="115" font-size="53" font-weight="700" letter-spacing="-1.5" fill="#223f5a">Ayush CV</text>
+      <text x="45" y="153" font-size="24" font-weight="600" fill="#334f6a">AI &amp; GenAI Engineering</text>
+      <text x="45" y="181" font-size="20" fill="#465e76">Python Backend Development</text>
+    </g>
+    <g fill="none" stroke="#7394b6" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M686 113H734C753 113 750 72 770 72H811C831 72 828 113 849 113H905"/>
+      <path d="M734 113C753 113 750 154 770 154H811C831 154 828 113 849 113"/>
+      <path d="M811 72H883M811 154H883" stroke="#9eb4cc" stroke-dasharray="3 7"/>
+    </g>
+    <g fill="#f5f8fc" stroke="#6488ad" stroke-width="2.4">
+      <circle cx="686" cy="113" r="7"/>
+      <circle cx="734" cy="113" r="7"/>
+      <rect x="782" y="64" width="16" height="16" rx="4"/>
+      <rect x="782" y="146" width="16" height="16" rx="4"/>
+      <circle cx="905" cy="113" r="8" fill="#547ca7"/>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="959" height="225" rx="14.5" fill="none" stroke="#ccd9e7"/>
+</svg>
