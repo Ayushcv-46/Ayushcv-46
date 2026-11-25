@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="236" height="44" viewBox="0 0 236 44" role="img">
+  <title>Hi, I’m Ayush.</title>
+  <style>
+    @media (prefers-reduced-motion: no-preference) {
+      .reveal { animation: type 1.35s steps(14,end) both; }
+      @keyframes type { from { width: 0; } to { width: 190px; } }
+    }
+  </style>
+  <defs><clipPath id="type"><rect class="reveal" x="37" width="190" height="44"/></clipPath></defs>
+  <path fill="#102c3c" d="M0 0h236v44H0z"/>
+  <path d="m12 16 7 6-7 6" stroke="#ffc363" stroke-width="3" fill="none"/>
+  <text x="37" y="29" clip-path="url(#type)" font-family="Consolas,Menlo,monospace" font-size="22" fill="#fff4db">Hi, I’m Ayush.</text>
+</svg>
