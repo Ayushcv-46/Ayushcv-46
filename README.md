@@ -1,46 +1,48 @@
-![Ayush CV · AI & GenAI Engineering · Python Backend Development](assets/profile-banner.svg)
+![Ayush CV | AI & GenAI Engineering | RAG, multi-agent systems and Python APIs | REVA University ’27](profile-hero.svg)
 
-I’m a B.Tech Computer Science & Information Technology student at REVA University (Class of 2027). I build retrieval-augmented applications, evaluate how well they ground answers in evidence, and develop backend APIs in Python. I’m open to AI/GenAI and backend software engineering internships.
+I build AI applications that retrieve evidence, cite sources, and let me test where the answers go wrong. I’m a B.Tech CS&IT student at REVA University, graduating in 2027, and open to AI/GenAI and backend engineering internships.
 
 ## Featured projects
 
-| Project | What I built and tested |
-| --- | --- |
-| [Fin Research Agent](https://github.com/Ayushcv-46/fin-research-agent) | Evidence-linked research over SEC filings and market data. My comparison found no measurable improvement from adaptive retrieval over a fixed baseline in the experiment. |
-| [ModelMux](https://github.com/Ayushcv-46/ModelMux) | A multi-provider LLM gateway with one chat API for Gemini, Groq, and Ollama, with API-key authentication, provider fallback, and Redis-backed rate limiting. |
-| [RAG PDF Chatbot](https://github.com/Ayushcv-46/rag-pdf-chatbot) | Multi-document Q&A with hybrid retrieval, cross-encoder reranking, and an evaluation harness for answer grounding. |
-| [5-Agent Autonomous Research System](https://github.com/Ayushcv-46/5-Agent-Autonomous-Research-System) | A LangGraph workflow that plans questions, searches the web, retrieves evidence, writes cited reports, and revises them using critic feedback. |
+<p align="center">
+  <a href="https://github.com/Ayushcv-46/fin-research-agent"><img src="profile-project-fin.svg" width="47%" alt="Fin Research Agent — SEC filings and retrieval benchmarks"></a>
+  <a href="https://github.com/Ayushcv-46/ModelMux"><img src="profile-project-mux.svg" width="47%" alt="ModelMux — Multi-provider gateway with fallback"></a>
+</p>
+<p align="center">
+  <a href="https://github.com/Ayushcv-46/rag-pdf-chatbot"><img src="profile-project-rag.svg" width="47%" alt="RAG PDF Chatbot — Hybrid search and grounded Q&A"></a>
+  <a href="https://github.com/Ayushcv-46/5-Agent-Autonomous-Research-System"><img src="profile-project-agents.svg" width="47%" alt="5-Agent Research System — LangGraph and cited research reports"></a>
+</p>
 
-## More projects and contributions
+In **Fin Research Agent**, I benchmarked adaptive retrieval against a fixed baseline. The extra retrieval passes showed no measurable gain in my experiment. **ModelMux** gives Gemini, Groq, and Ollama a common chat API with authentication, rate limiting, and fallback.
 
-- [Intrusion Detection System](https://github.com/Ayushcv-46/intrusion-detection-system-ml) uses a soft-voting ML ensemble to classify network traffic, with SHAP for model interpretation.
-- [InterviewPal](https://github.com/Ayushcv-46/InterviewPal) is a full-stack interview prep app with AI mock interviews, technical trivia, and generated flashcards.
-- [Personal Expense Tracker](https://github.com/Ayushcv-46/Personal-Expense-tracker-) tracks transactions, category budgets, and spending trends.
-- **Live Coding Tutor** is a team project. I contributed to the AI and LLM integration.
+### How the research agents work
+
+![Five agents plan, search, retrieve evidence, write, and review. Critic feedback can send the draft back to the writing step.](profile-research-flow.svg)
+
+The [5-Agent Research System](https://github.com/Ayushcv-46/5-Agent-Autonomous-Research-System) uses LangGraph to run this workflow. Retrieved passages support the report, and the critic can send a draft back for revision.
+
+### More projects
+
+- [Intrusion Detection System](https://github.com/Ayushcv-46/intrusion-detection-system-ml) · Soft-voting ML ensemble for network traffic classification, with SHAP explanations.
+- [InterviewPal](https://github.com/Ayushcv-46/InterviewPal) · AI mock interviews, technical trivia, and generated flashcards.
+- [Personal Expense Tracker](https://github.com/Ayushcv-46/Personal-Expense-tracker-) · Transactions, category budgets, and spending trends.
+- **Live Coding Tutor** · Team project. I contributed the AI and LLM integration.
 
 ## Tech stack
 
-| Area | Technologies |
-| --- | --- |
-| Languages & backend | Python, JavaScript, C++, FastAPI, Node.js, Express |
-| LLMs, retrieval & evaluation | LangGraph, LangChain, LlamaIndex, Gemini, Groq, Tavily, Sentence Transformers, ChromaDB, RAGAS, LangSmith, Unsloth |
-| Machine learning & data | scikit-learn, XGBoost, SHAP, pandas, NumPy, Matplotlib |
-| Frontend & storage | React, Vite, Tailwind CSS, Streamlit, Recharts, Supabase/PostgreSQL, MongoDB/Mongoose, SQLite |
-| Testing & delivery | pytest, Docker, Docker Compose, GitHub Actions |
+![Python, C++, JavaScript, FastAPI, Node.js, Express, LangGraph, LlamaIndex, LangChain, ChromaDB, RAGAS, Unsloth, scikit-learn, XGBoost, React, Redis, PostgreSQL, Docker.](profile-tech-stack.svg)
 
 <details>
-<summary>ModelMux stack and architecture target</summary>
+<summary>More tools and the full ModelMux stack</summary>
 
-- **API & providers:** Python, async FastAPI, Uvicorn, Pydantic, HTTPX, Gemini, Groq, and Ollama.
-- **Data & delivery:** SQLAlchemy, SQLite for local development, PostgreSQL for the deployment target, Redis, and Docker Compose.
-- **Quality & observability:** pytest, Locust, GitHub Actions, structured logs and metrics, and planned OpenTelemetry instrumentation.
+**ModelMux** · Python, async FastAPI, Uvicorn, Pydantic, HTTPX, Gemini, Groq, Ollama, SQLAlchemy, SQLite for local development, PostgreSQL for deployment, Redis, Docker Compose, pytest, Locust, and GitHub Actions. The roadmap also includes structured logs, metrics, and OpenTelemetry instrumentation.
+
+**Other projects** · Tavily, Sentence Transformers, LangSmith, SHAP, pandas, NumPy, Matplotlib, Vite, Tailwind CSS, Streamlit, Recharts, Supabase, MongoDB, and Mongoose.
 
 </details>
 
 ## GitHub activity
 
-| Contributions in the preceding year | Commits in November to date | Repositories with commits that month |
-| :---: | :---: | :---: |
-| **189** | **55** | **6** |
+[![GitHub snapshot: 189 contributions in the preceding year, 55 November commits across 6 repositories.](profile-activity.svg)](https://github.com/Ayushcv-46#contribution-activity)
 
 Snapshot from 25 November 2026 · [View current GitHub activity](https://github.com/Ayushcv-46#contribution-activity)
